@@ -7,7 +7,7 @@
 <body>
 <ul>
     {{#templateFiles}}
-    <li><a href="{{path}}">{{path}}</a></li>
+    <li><a href="{{requestPath}}">{{requestPath}}</a> {{method}} {{extension}} {{statusCode}}</li>
     {{/templateFiles}}
 </ul>
 </body>
