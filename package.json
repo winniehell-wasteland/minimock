@@ -15,7 +15,9 @@
   "author": "winniehell <git@winniehell.de>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "mustache-express": "^1.2.2",
+    "packpath": "^0.1.0"
   },
   "devDependencies": {
     "standard": "^6.0.7"
