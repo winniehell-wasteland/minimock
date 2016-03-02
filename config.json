@@ -6,7 +6,8 @@
       "contentType": "xml"
     },
     "response": {
-      "statusCode": 404
+      "statusCode": 200,
+      "name": "apples"
     }
   },
   {
@@ -16,7 +17,8 @@
       "contentType": "json"
     },
     "response": {
-      "statusCode": 200
+      "statusCode": 200,
+      "name": "green"
     }
   }
 ]
