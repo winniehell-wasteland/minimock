@@ -1,14 +1,22 @@
 [
   {
-    "requestPath": "/fruits/v1/",
-    "method": "get",
-    "extension": "xml",
-    "statusCode": 404
+    "resource": {
+      "requestPath": "/fruits/v1/",
+      "httpMethod": "get",
+      "contentType": "xml"
+    },
+    "response": {
+      "statusCode": 404
+    }
   },
   {
-    "requestPath": "/vegetables/v2/",
-    "method": "get",
-    "extension": "json",
-    "statusCode": 200
+    "resource": {
+      "requestPath": "/vegetables/v2/",
+      "httpMethod": "get",
+      "contentType": "json"
+    },
+    "response": {
+      "statusCode": 200
+    }
   }
 ]

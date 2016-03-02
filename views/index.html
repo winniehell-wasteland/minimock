@@ -6,18 +6,16 @@
 </head>
 <body>
 <table>
-    {{#configItems}}
+    {{#resources}}
     <tr>
-        {{#templateFile}}
         <td><a href="{{requestPath}}">{{requestPath}}</a></td>
-        <td>{{method}}</td>
-        <td>{{extension}}</td>
-        {{/templateFile}}
-        {{#config}}
+        <td>{{httpMethod}}</td>
+        <td>{{contentType}}</td>
+        {{#selectedResponse}}
         <td>{{statusCode}}</td>
-        {{/config}}
+        {{/selectedResponse}}
     </tr>
-    {{/configItems}}
+    {{/resources}}
 </table>
 </body>
 </html>
