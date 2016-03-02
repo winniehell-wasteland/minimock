@@ -11,8 +11,15 @@
         <td><a href="{{requestPath}}">{{requestPath}}</a></td>
         <td>{{httpMethod}}</td>
         <td>{{contentType}}</td>
+        <td>
+            <select>
+                {{#availableResponses}}
+                <option>{{name}} ({{statusCode}})</option>
+                {{/availableResponses}}
+            </select>
+        </td>
         {{#selectedResponse}}
-        <td>{{statusCode}}</td>
+        <td><strong>selected:</strong> {{name}} ({{statusCode}})</td>
         {{/selectedResponse}}
     </tr>
     {{/resources}}
