@@ -4,7 +4,7 @@
   "description": "provides configurable mock responses using templates",
   "main": "index.js",
   "scripts": {
-    "prestart": "npm run test",
+    "prestart": "npm install && npm run test",
     "pretest": "standard",
     "test": "echo 'There are currently no tests!'"
   },
