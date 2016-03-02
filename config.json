@@ -1,0 +1,14 @@
+[
+  {
+    "requestPath": "/fruits/v1/",
+    "method": "get",
+    "extension": "xml",
+    "statusCode": 200
+  },
+  {
+    "requestPath": "/vegetables/v2/",
+    "method": "get",
+    "extension": "json",
+    "statusCode": 200
+  }
+]

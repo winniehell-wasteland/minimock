@@ -5,10 +5,19 @@
     <title>Minimock Configuration</title>
 </head>
 <body>
-<ul>
-    {{#templateFiles}}
-    <li><a href="{{requestPath}}">{{requestPath}}</a> {{method}} {{extension}} {{statusCode}}</li>
-    {{/templateFiles}}
-</ul>
+<table>
+    {{#configItems}}
+    <tr>
+        {{#templateFile}}
+        <td><a href="{{requestPath}}">{{requestPath}}</a></td>
+        <td>{{method}}</td>
+        <td>{{extension}}</td>
+        {{/templateFile}}
+        {{#config}}
+        <td>{{statusCode}}</td>
+        {{/config}}
+    </tr>
+    {{/configItems}}
+</table>
 </body>
 </html>
