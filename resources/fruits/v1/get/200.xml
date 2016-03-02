@@ -1,2 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<content>These are old fruits!</content>
+<content>
+    <message>These are old fruits!</message>
+    <apples>
+        {{#apples}}
+        <apple>{{.}}</apple>
+        {{/apples}}
+    </apples>
+</content>

@@ -1,1 +1,12 @@
-"These are fresh vegetables!"
+{
+  "message": "These are fresh vegetables!",
+{{#isAllGreen}}
+  "detail": "They are very green!",
+{{/isAllGreen}}
+  "vegetables": {
+{{#vegetables}}
+"{{.}}": true,
+{{/vegetables}}
+"dummy": false
+  }
+}

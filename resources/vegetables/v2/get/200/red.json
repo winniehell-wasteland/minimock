@@ -1,4 +1,6 @@
-[
-  "Pepper",
-  "Tomato"
-]
+{
+  "vegetables": [
+    "Pepper",
+    "Tomato"
+  ]
+}

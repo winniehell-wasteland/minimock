@@ -1,5 +1,7 @@
-[
-  "Elstar",
-  "Granny Smith",
-  "Pink Lady"
-]
+{
+  "apples": [
+    "Elstar",
+    "Granny Smith",
+    "Pink Lady"
+  ]
+}

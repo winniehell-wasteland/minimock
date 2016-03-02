@@ -1,5 +1,8 @@
-[
-  "Broccoli",
-  "Cucumber",
-  "Spinach"
-]
+{
+  "vegetables": [
+    "Broccoli",
+    "Cucumber",
+    "Spinach"
+  ],
+  "isAllGreen": true
+}
