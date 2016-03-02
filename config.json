@@ -3,7 +3,7 @@
     "requestPath": "/fruits/v1/",
     "method": "get",
     "extension": "xml",
-    "statusCode": 200
+    "statusCode": 404
   },
   {
     "requestPath": "/vegetables/v2/",
