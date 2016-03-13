@@ -1,0 +1,26 @@
+{
+  "name": "minimock",
+  "version": "1.0.0",
+  "description": "provides configurable mock responses using templates",
+  "main": "index.js",
+  "scripts": {
+    "prestart": "npm install && npm run test",
+    "pretest": "standard",
+    "test": "echo 'There are currently no tests!'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/winniehell/minimock"
+  },
+  "author": "winniehell <git@winniehell.de>",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^0.26.5",
+    "handlebars": "^4.0.5",
+    "lodash": "^4.5.1",
+    "packpath": "^0.1.0"
+  },
+  "devDependencies": {
+    "standard": "^6.0.7"
+  }
+}
